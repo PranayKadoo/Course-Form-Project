@@ -1,0 +1,66 @@
+body, html{
+    margin:0%;
+    padding:0%;
+}
+
+.wrap{
+    position: relative;
+    height:500px
+}
+.child1{
+    position: absolute;
+    width:60%;
+    top:10%;
+    left:20%;
+    right:20%;
+    text-align: center;
+}
+.child2{
+    position: absolute;
+    width:80%;
+    top:30%;
+    left:10%;
+    right:20%;
+    text-align: center;
+
+}
+.fonth1{
+   font-size: 4vw;
+   color:rgb(7, 4, 80);
+}
+#name, #course, #author{
+    width:90%;
+    height:3vw;
+    text-align: center;
+    background-color: rgb(207, 228, 235);
+    border: 3px solid rgb(151, 228, 253);
+    border-radius: 3px;
+    font-size: 2vw;
+    color:rgb(7, 4, 80);
+}
+#submit{
+    width:60%;
+    height:5vw;
+    text-align: center;
+    background-color: rgb(207, 228, 235);
+    border: 1vw solid rgb(151, 228, 253);
+    border-radius: 1vw;
+    font-size: 2vw;
+    color:rgb(129, 129, 145);
+}
+#submit:hover{
+    color:rgb(4, 4, 24);
+    width:65%;
+    height:6vw;
+    font-size: 3vw;
+    transition:0.5s;
+
+}
+#card img{
+    width:200px;
+    height:300px;
+}
+#cdata{
+    font-size: 5vw;
+
+}
